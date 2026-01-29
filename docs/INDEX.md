@@ -30,14 +30,16 @@ Regulatory compliance details:
 ```
 src/
 ├── Models/
-│   ├── TeamRepository.cs          # Team and repository models
-│   ├── CVE.cs                      # CVE data structures
-│   └── PatchDecision.cs            # Patch decision models
+│   └── TeamRepository.cs           # Team and repository models
 ├── Services/
-│   ├── CVEDetectionService.cs     # CVE scanning service
-│   ├── RiskAssessmentService.cs   # Risk calculation service
-│   └── PRCreationService.cs       # Pull request automation
-└── Program.cs                      # Main entry point
+│   ├── CVEDetectionService.cs      # CVE scanning service
+│   ├── RiskAssessmentService.cs    # Risk analysis & financial impact
+│   ├── PRCreationService.cs        # Pull request automation
+│   ├── ComplianceReportingService.cs  # Regulatory reporting
+│   └── DashboardService.cs         # Real-time terminal dashboard
+├── Program.cs                       # Main automation application (788 lines)
+├── QuickDashboard.cs               # Interactive dashboard demo
+└── DashboardDemo.cs                # Advanced dashboard with animations
 ```
 
 ## Quick Navigation
