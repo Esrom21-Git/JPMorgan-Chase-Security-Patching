@@ -342,3 +342,8 @@ Your star helps other financial institutions and organizations discover this sol
  
  A c t i v e   D e v e l o p m e n t   |   P r o d u c t i o n   R e a d y   |   2 5 0 +   R e p o s i t o r i e s  
  
+ # #   Q u i c k   L i n k s 
+ -   [ A r c h i t e c t u r e ] ( A R C H I T E C T U R E . m d ) 
+ -   [ T e a m s   B r e a k d o w n ] ( J P M O R G A N _ T E A M S _ B R E A K D O W N . m d ) 
+ -   [ E x e c u t i v e   S u m m a r y ] ( E X E C U T I V E _ S U M M A R Y . m d )  
+ 
