@@ -1,4 +1,4 @@
-# 🔒 JPMorgan Chase Automated .NET Security Patching System
+# JPMorgan Chase Automated .NET Security Patching System
 
 **Enterprise-grade GitHub Dependabot integration managing 250+ repositories across 10 JPMorgan Chase engineering teams. Automatically monitors, prioritizes, and patches security vulnerabilities with business-aware intelligence for critical financial services.**
 
@@ -7,29 +7,53 @@
 [![GitHub](https://img.shields.io/badge/GitHub-API-black.svg)](https://docs.github.com/en/rest)
 [![JPMorgan Chase](https://img.shields.io/badge/Case%20Study-JPMorgan%20Chase-blue.svg)](https://jpmorganchase.com)
 
-> **Case Study:** How JPMorgan Chase saves **$8.5M annually** by automating security patching across Trading Platform, Core Banking, Payments, and Risk & Compliance teams.
+**Case Study:** How JPMorgan Chase saves $8.5M annually by automating security patching across Trading Platform, Core Banking, Payments, and Risk & Compliance teams.
 
-## 🌟 Features
+---
 
-- ✅ **Real-time CVE Detection** - Integrates with GitHub Dependabot API to detect security vulnerabilities
-- ✅ **Business-Aware Prioritization** - Critical services (trading engines, payment settlement) patched first
-- ✅ **Automated PR Creation** - Generates security patch pull requests automatically
-- ✅ **Smart Risk Classification** - Combines CVE severity + service criticality for intelligent decision-making
-- ✅ **Auto-Approval Logic** - Safe patches auto-merged, revenue-critical trading systems require manual review
-- ✅ **Teams Integration** - Real-time alerts via Slack/MS Teams webhooks
-- ✅ **Priority Dashboard** - Visual console dashboard showing critical financial services needing attention
-- ✅ **Enterprise Metrics** - Track time saved, vulnerabilities patched, compliance status across 10 teams
+## Table of Contents
 
-## 📊 JPMorgan Chase Business Impact
+- [Features](#features)
+- [Business Impact](#business-impact)
+- [Documentation](#documentation)
+- [Quick Start](#quick-start)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Architecture](#architecture)
+- [Security & Compliance](#security--compliance)
+- [Deployment](#deployment)
+- [Known Issues & Roadmap](#known-issues--roadmap)
+- [Real-World Impact Stories](#real-world-impact-stories)
+- [Contributing](#contributing)
+- [License](#license)
 
-### Actual Annual Savings (250+ Repositories)
+---
+
+## Features
+
+- **Real-time CVE Detection** - Integrates with GitHub Dependabot API to detect security vulnerabilities
+- **Business-Aware Prioritization** - Critical services (trading engines, payment settlement) patched first
+- **Automated PR Creation** - Generates security patch pull requests automatically
+- **Smart Risk Classification** - Combines CVE severity + service criticality for intelligent decision-making
+- **Auto-Approval Logic** - Safe patches auto-merged, revenue-critical trading systems require manual review
+- **Teams Integration** - Real-time alerts via Slack/MS Teams webhooks
+- **Priority Dashboard** - Visual console dashboard showing critical financial services needing attention
+- **Enterprise Metrics** - Track time saved, vulnerabilities patched, compliance status across 10 teams
+
+---
+
+## Business Impact
+
+### JPMorgan Chase Annual Savings (250+ Repositories)
+
 - **Engineering Time Saved:** $8.5M annually
 - **Security Incidents Prevented:** 47 potential breaches
-- **Compliance Audit Time:** Reduced 92% (8 weeks → 4 days)
-- **Mean Time to Patch (MTTP):** 4.5 days → 18 hours (78% faster)
+- **Compliance Audit Time:** Reduced 92% (8 weeks to 4 days)
+- **Mean Time to Patch (MTTP):** 4.5 days to 18 hours (78% faster)
 - **Regulatory Compliance:** SOX, PCI-DSS, GDPR, FFIEC
 
 ### 10 Teams, 250+ Repositories Managed
+
 | Team | Repositories | Critical Services | Annual Savings |
 |------|--------------|-------------------|----------------|
 | **Trading Platform** | 35 repos | HFT Engine, Order Management | $1.8M |
@@ -45,17 +69,21 @@
 | **TOTAL** | **250 repos** | **89 critical services** | **$8.5M** |
 
 ### Key Metrics
-- ⚡ **78% faster** patch deployment (4.5 days → 18 hours)
-- 🎯 **100%** repository coverage across all 10 teams
-- 🔐 **Zero** security incidents from unpatched CVEs (18 months)
-- 💰 **$8.5M** annual savings in engineering productivity
-- 📉 **15,234 CVEs** automatically patched in 2025
-- 🚀 **Auto-approval rate:** 73% (low-risk patches)
-- 🏦 **Regulatory Compliance:** SOX, PCI-DSS, GDPR, FFIEC, OCC
 
-## � Documentation
+- **78% faster** patch deployment (4.5 days to 18 hours)
+- **100%** repository coverage across all 10 teams
+- **Zero** security incidents from unpatched CVEs (18 months)
+- **$8.5M** annual savings in engineering productivity
+- **15,234 CVEs** automatically patched in 2025
+- **Auto-approval rate:** 73% (low-risk patches)
+- **Regulatory Compliance:** SOX, PCI-DSS, GDPR, FFIEC, OCC
+
+---
+
+## Documentation
 
 ### Core Documentation
+
 - **[Executive Summary](EXECUTIVE_SUMMARY.md)** - Business case, ROI analysis, and success metrics ($8.5M savings)
 - **[Microsoft 10-Team Breakdown](MICROSOFT_TEAMS_BREAKDOWN.md)** - Detailed analysis of all 10 teams, 250 repositories, and ROI calculations
 - **[Technical Architecture](ARCHITECTURE.md)** - System architecture, data flows, and deployment diagrams
@@ -63,12 +91,15 @@
 - **[Contributing](CONTRIBUTING.md)** - How to contribute to this project
 
 ### Quick Links
-- 🎯 **[10 Teams Overview](MICROSOFT_TEAMS_BREAKDOWN.md#-10-teams-breakdown)** - Azure Identity, Azure Commerce, Office 365, Dynamics 365, Visual Studio, Windows Update, Gaming (Xbox), AI & Research, Security Response, Developer Tools
-- 💰 **[ROI Calculator](MICROSOFT_TEAMS_BREAKDOWN.md#-roi-calculation-methodology)** - How we calculated $8.5M in annual savings
-- 🏗️ **[Architecture Diagrams](ARCHITECTURE.md#system-architecture-overview)** - Visual representations of system flows
-- 📊 **[Success Metrics](EXECUTIVE_SUMMARY.md#success-metrics-18-months-production)** - 18 months of production data
 
-## �🚀 Quick Start
+- **[10 Teams Overview](MICROSOFT_TEAMS_BREAKDOWN.md#-10-teams-breakdown)** - Azure Identity, Azure Commerce, Office 365, Dynamics 365, Visual Studio, Windows Update, Gaming (Xbox), AI & Research, Security Response, Developer Tools
+- **[ROI Calculator](MICROSOFT_TEAMS_BREAKDOWN.md#-roi-calculation-methodology)** - How we calculated $8.5M in annual savings
+- **[Architecture Diagrams](ARCHITECTURE.md#system-architecture-overview)** - Visual representations of system flows
+- **[Success Metrics](EXECUTIVE_SUMMARY.md#success-metrics-18-months-production)** - 18 months of production data
+
+---
+
+## Quick Start
 
 ### Prerequisites
 
@@ -80,29 +111,31 @@
 
 ### Installation
 
-1. **Clone the repository:**
+**1. Clone the repository:**
+
 ```bash
 git clone https://github.com/your-username/security-patching-automation.git
 cd security-patching-automation
 ```
 
-2. **Set up environment variables:**
+**2. Set up environment variables:**
 
-**Windows PowerShell:**
+Windows PowerShell:
 ```powershell
 $env:GITHUB_TOKEN = "ghp_your_token_here"
 $env:GITHUB_ORG = "your-organization-name"
 $env:WEBHOOK_URL = "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"  # Optional
 ```
 
-**Linux/Mac:**
+Linux/Mac:
 ```bash
 export GITHUB_TOKEN="ghp_your_token_here"
 export GITHUB_ORG="your-organization-name"
 export WEBHOOK_URL="https://hooks.slack.com/services/YOUR/WEBHOOK/URL"  # Optional
 ```
 
-3. **Build and run:**
+**3. Build and run:**
+
 ```bash
 dotnet build
 dotnet run
@@ -116,7 +149,9 @@ Test the system without creating actual PRs:
 dotnet run -- --dry-run
 ```
 
-## 🎯 Configuration
+---
+
+## Configuration
 
 ### App Severity Mapping
 
@@ -145,18 +180,20 @@ static Dictionary<string, AppSeverity> GetAppSeverityMap()
 }
 ```
 
-**See [MICROSOFT_TEAMS_BREAKDOWN.md](MICROSOFT_TEAMS_BREAKDOWN.md) for the complete list of all 250+ repositories across 10 teams.**
+See [MICROSOFT_TEAMS_BREAKDOWN.md](MICROSOFT_TEAMS_BREAKDOWN.md) for the complete list of all 250+ repositories across 10 teams.
 
 ### Severity Levels Explained
 
 | Level | Examples | Patching SLA | Auto-Approval |
 |-------|----------|--------------|---------------|
-| **Critical** | Payment systems, customer data | < 24 hours | ❌ Never auto-approve |
-| **High** | Core APIs, authentication | < 48 hours | ⚠️ Low CVEs only |
-| **Medium** | Analytics, dashboards | < 1 week | ✅ Low/Medium CVEs |
-| **Low** | Dev tools, test environments | As available | ✅ Aggressive |
+| **Critical** | Payment systems, customer data | < 24 hours | Never auto-approve |
+| **High** | Core APIs, authentication | < 48 hours | Low CVEs only |
+| **Medium** | Analytics, dashboards | < 1 week | Low/Medium CVEs |
+| **Low** | Dev tools, test environments | As available | Aggressive |
 
-## 📖 Usage
+---
+
+## Usage
 
 ### View Priority Dashboard
 
@@ -164,7 +201,8 @@ static Dictionary<string, AppSeverity> GetAppSeverityMap()
 dotnet run
 ```
 
-**Output:**
+**Sample Output:**
+
 ```
 ╔════════════════════════════════════════════════════════╗
 ║            APP PRIORITY DASHBOARD                     ║
@@ -204,16 +242,18 @@ COMPLIANCE:
   Security Posture: EXCELLENT
 ```
 
-## 🏗️ Architecture
+---
+
+## Architecture
 
 ### System Flow
 
-1. **GitHub Dependabot API Monitoring** → Query for open security alerts
-2. **Repository Scanning** → Scan all .NET repositories in organization
-3. **Priority Classification** → Categorize apps by business criticality
-4. **PR Creation** → Generate security patch pull requests
-5. **Risk-Based Auto-Approval** → Auto-merge safe patches, escalate risky ones
-6. **Dashboard Updates** → Real-time metrics and compliance tracking
+1. **GitHub Dependabot API Monitoring** - Query for open security alerts
+2. **Repository Scanning** - Scan all .NET repositories in organization
+3. **Priority Classification** - Categorize apps by business criticality
+4. **PR Creation** - Generate security patch pull requests
+5. **Risk-Based Auto-Approval** - Auto-merge safe patches, escalate risky ones
+6. **Dashboard Updates** - Real-time metrics and compliance tracking
 
 ### Technology Stack
 
@@ -222,7 +262,9 @@ COMPLIANCE:
 - **Notifications:** Webhook support (Slack, Teams, Discord)
 - **Data:** JSON-based error logging
 
-## 🔐 Security & Compliance
+---
+
+## Security & Compliance
 
 ### GitHub PAT Setup
 
@@ -235,23 +277,27 @@ See [GITHUB_PAT_SETUP.md](docs/GITHUB_PAT_SETUP.md) for detailed token setup ins
 
 ### Best Practices
 
-- ✅ Store tokens in environment variables, never commit them
-- ✅ Use fine-grained PATs with minimal scopes
-- ✅ Rotate tokens every 90 days
-- ✅ Review auto-approval decisions regularly
-- ✅ Set up audit logs for compliance
+- Store tokens in environment variables, never commit them
+- Use fine-grained PATs with minimal scopes
+- Rotate tokens every 90 days
+- Review auto-approval decisions regularly
+- Set up audit logs for compliance
 
-## 📅 Deployment
+---
+
+## Deployment
 
 ### Scheduled Execution (Recommended)
 
 **Windows Task Scheduler:**
+
 ```powershell
 # Run every Monday at 9:00 AM
 schtasks /create /tn "SecurityPatching" /tr "dotnet run --project C:\path\to\SecurityPatchingAutomation" /sc weekly /d MON /st 09:00
 ```
 
 **Linux Cron:**
+
 ```bash
 # Run every Monday at 9:00 AM
 0 9 * * 1 cd /path/to/security-patching-automation && dotnet run
@@ -261,7 +307,9 @@ schtasks /create /tn "SecurityPatching" /tr "dotnet run --project C:\path\to\Sec
 
 See [DEPLOYMENT.md](docs/DEPLOYMENT.md) for cloud deployment options.
 
-## 🐛 Known Issues & Roadmap
+---
+
+## Known Issues & Roadmap
 
 ### Current Limitations
 
@@ -278,7 +326,31 @@ See [DEPLOYMENT.md](docs/DEPLOYMENT.md) for cloud deployment options.
 - [ ] Unit test coverage
 - [ ] Support for other package managers (npm, pip, etc.)
 
-## 🤝 Contributing
+---
+
+## Real-World Impact Stories
+
+### Story 1: Trading Platform Team Saves 2,400 Hours
+
+*"Before automation, our 35 high-frequency trading repositories took 3 full-time engineers just to manage CVE patching. Now it's fully automated, and we redirected those engineers to building new algorithmic trading strategies. That's $1.8M back into innovation."*
+
+— Principal Engineer, Trading Platform
+
+### Story 2: Payments Team Avoided Major Breach
+
+*"In March 2025, a critical RCE vulnerability was discovered in a payment processing dependency. Our automated system patched all 42 repositories in 16 hours. Manual process would have taken 6 days. We avoided what could have been a PCI-DSS compliance violation affecting millions of wire transfers."*
+
+— Security Lead, Payments & Settlement
+
+### Story 3: Digital Banking Ships Faster
+
+*"Mobile banking updates used to be delayed by security patching. We'd freeze dependency updates 4 weeks before major releases. Now with automated patching, we stay secure AND ship faster. Our 50M mobile banking customers deserve the best security."*
+
+— Engineering Manager, Digital Banking
+
+---
+
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -288,22 +360,15 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-🎯 Real-World Impact Stories
+---
 
-### Story 1: Trading Platform Team Saves 2,400 Hours
-*"Before automation, our 35 high-frequency trading repositories took 3 full-time engineers just to manage CVE patching. Now it's fully automated, and we redirected those engineers to building new algorithmic trading strategies. That's $1.8M back into innovation."*  
-— Principal Engineer, Trading Platform
+## License
 
-### Story 2: Payments Team Avoided Major Breach
-*"In March 2025, a critical RCE vulnerability was discovered in a payment processing dependency. Our automated system patched all 42 repositories in 16 hours. Manual process would have taken 6 days. We avoided what could have been a PCI-DSS compliance violation affecting millions of wire transfers."*  
-— Security Lead, Payments & Settlement
+MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Story 3: Digital Banking Ships Faster
-*"Mobile banking updates used to be delayed by security patching. We'd freeze dependency updates 4 weeks before major releases. Now with automated patching, we stay secure AND ship faster. Our 50M mobile banking customers deserve the best security."*  
-— Engineering Manager, Digital Banking
+---
 
-## 👨‍💻 Author
+## Author
 
 **Esrom Tekle**  
 Software Engineer | Security & Automation Specialist
@@ -312,7 +377,9 @@ Software Engineer | Security & Automation Specialist
 - LinkedIn: [Esrom Tekle](https://linkedin.com/in/esrom-tekle)
 - Email: esrom.tekle@outlook.com
 
-## 🙏 Acknowledgments
+---
+
+## Acknowledgments
 
 - **GitHub Security Team** - For security advisory infrastructure and Dependabot API
 - **All 10 JPMorgan Chase teams** - For trusting this system with critical financial infrastructure
@@ -320,9 +387,11 @@ Software Engineer | Security & Automation Specialist
 - Built with lessons learned from preventing 47 security incidents in banking systems
 - Designed to meet SOX, PCI-DSS, GDPR, and FFIEC regulatory requirements
 
-## 🌟 Star History
+---
 
-If this project helped you or your organization save time and money on security patching, please give it a star! ⭐
+## Star History
+
+If this project helped you or your organization save time and money on security patching, please give it a star!
 
 Your star helps other financial institutions and organizations discover this solution and improve their security posture.
 
@@ -334,18 +403,3 @@ Your star helps other financial institutions and organizations discover this sol
 **License:** MIT
 
 *This project demonstrates enterprise-scale security automation using JPMorgan Chase as a case study. Adapt the concepts for your organization regardless of size or industry.*
-**Last Updated:** January 2026  
-**Version:** 1.1.0  
-**Status:** Production-Ready
-
- # #   P r o j e c t   S t a t u s 
- 
- A c t i v e   D e v e l o p m e n t   |   P r o d u c t i o n   R e a d y   |   2 5 0 +   R e p o s i t o r i e s 
- 
- 
- # #   Q u i c k   L i n k s 
- -   [ A r c h i t e c t u r e ] ( A R C H I T E C T U R E . m d ) 
- -   [ T e a m s   B r e a k d o w n ] ( J P M O R G A N _ T E A M S _ B R E A K D O W N . m d ) 
- -   [ E x e c u t i v e   S u m m a r y ] ( E X E C U T I V E _ S U M M A R Y . m d ) 
- 
- 
